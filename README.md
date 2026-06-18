@@ -32,7 +32,7 @@ El pipeline genera tres archivos para el modelo en Python:
 
 ## Nota sobre la reproducibilidad del generador Ranger
 
-El archivo [Generador_Ranger.R](Generador_Ranger.R) no puede reejecutarse de forma equivalente al original. Por un error de planeación no se conservó la semilla que produjo [Motor vehicle insurance full.rds](Motor%20vehicle%20insurance%20full.rds), y volver a ejecutar ese paso alteraría la lógica manual con la que se construyeron los anillos de colusión. Por ese motivo, este script debe entenderse como parte del proceso histórico de construcción de la base, no como un paso completamente reproducible.
+El archivo [Generador_Ranger.R](Generador_Ranger.R) no puede reejecutarse de forma equivalente al original. Por un error de planeación no se conservó la semilla que produjo [Motor vehicle insurance full.rds](Motor%20vehicle%20insurance%20full.rds) y volver a ejecutar ese paso alteraría la lógica manual con la que se construyeron los anillos de colusión. Por ese motivo, este script debe entenderse como parte del proceso histórico de construcción de la base, no como un paso completamente reproducible.
 
 ## Objetivo
 
@@ -41,6 +41,3 @@ El objetivo final es disponer de una base semisintética coherente para entrenar
 - tabular, para variables agregadas y estructurales
 - topológica, para relaciones entre siniestros y proveedores.
 
-## Notas
-
-Este repositorio conserva solo el código fuente y los archivos necesarios para reconstruir la base final. No incluye scripts de figuras ni artefactos, pues estos se generan solo con fines académios para complementar el documento del proyecto final.
